@@ -1,0 +1,395 @@
+
+/* start of Nav bar CSS style */
+
+.list2{
+     
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  font-size: 12px; 
+}
+
+.listbutton{
+  height: 30px;
+  width: 130px;   
+  margin-left: 10px;
+  background-color: #006ca5;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+
+}
+.listbutton:hover{
+  background-color: grey;
+  cursor: pointer;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+padding: 20px;
+position: sticky;
+
+
+}
+.logo{
+width: 10rem;
+height: 8rem;
+border-radius: 250px;
+
+
+}
+
+.lists{
+display: flex;
+justify-content: space-between;
+margin: 30px;
+margin-top: 29px;
+list-style: none;
+padding: 20px;
+background-color: rgba(128, 128, 128, 0.4);
+
+}
+.list{
+
+margin-left: 30px;
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+.list:hover{
+color: rgb(18 16 93);
+text-decoration:underline;
+
+}
+.carticon{
+width: 25px;
+height: 25px;
+}
+
+
+.darkmode{
+width: 35px;
+height: 35px;
+
+} 
+#button{
+background-color: transparent;
+border: none;
+
+margin-left: 10px;
+margin-top: -3px;
+cursor: pointer;
+}
+
+/* end of Nav bar CSS style */
+/* start of team css style */
+
+
+.team-body {
+  background: linear-gradient(45deg,rgb(236, 243, 248) ,rgb(224, 229, 244)); 
+  }
+
+.team-card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+.team-card {
+    height: 530px;
+    width: 300px;
+   background-color:white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    margin-right:50px ;
+    margin-left:50px ;
+}
+
+.team-card img {
+    width: 300px;
+    height: 200px;
+}
+
+.team-card-content {
+    padding: 16px;
+}
+
+.team-card-content h3 {
+  text-align: center;
+    font-size: 28px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    color: rgb(18 16 93);
+    text-shadow: 0 5px 10px silver;
+
+    
+}
+
+.team-card-content p {
+    color:black;
+    font-size: 15px;
+    line-height: 1.3;
+    display:  inline-block;
+}
+
+
+.team-btn1,.team-btn2,.team-btn3,.team-btn4,.team-btn5,.team-btn6{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #1c526b;
+    text-decoration: none;
+    border-radius: 4px;
+    color: wheat;
+    font-weight: bold;
+    margin-top :50px;
+  
+}
+.team-btn:hover{
+    font-weight: bold;
+    color:  rgb(50, 49, 49);
+} 
+.team-read-more-btn{
+color:rgb(18 16 93);
+display: inline-block;
+font-size: larger;
+
+
+}
+.team-read-more-text{
+display: none;
+
+
+}
+.team-read-more-text--show{
+display: inline;
+
+
+}
+
+.team-row {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+ flex-wrap: wrap;
+ 
+}
+
+.team-cont{
+padding: 15px 9%;
+padding-bottom: 50px;
+}
+.team-hh{
+text-align: center;
+padding-bottom: 15px;
+color:rgb(18 16 93);
+text-shadow: 0 5px 10px silver;
+font-size: 50px;
+ }
+.team-box-container{
+display: flex;
+
+ }
+ .team-box{
+box-shadow: 0 5px 10px rgba(0,0,0,.2);
+border-radius: 5px;
+background: white;
+text-align: center;
+padding: 30px 20px;
+flex: 1;
+margin-right: 15px;
+width: 270px;
+
+ }
+ .team-box img{
+height: 80px;
+ }
+ .team-box p{
+font-size: 20px;
+line-height: 1.8;
+color:rgb(18 16 93);
+
+ }
+ .team-box:hover{
+
+  box-shadow: 0 10px 15px black;
+  transform: scale(1.03);
+ }
+ .team-card:hover{
+
+  box-shadow: 0 10px 15px black;
+  transform: scale(1.03);
+
+ }
+
+ 
+.team-alert{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.team-off{
+padding: 10px 60px ;
+border-radius: 4px;
+outline:none;
+cursor: pointer;
+font-size: 22px;
+font-weight: 500;
+background-color:#1c526b;
+display: flex;
+margin: auto;
+color: wheat;
+
+}
+.team-off:hover{
+  background-color:gray;
+  
+}
+.team-popup{
+width:400px ;
+border-radius: 6px;
+position: absolute;
+top: 330%;
+left: 50%;
+transform: translate(-50%,-50%) scale(0.1);
+text-align: center;
+padding: 0 30px 30px;
+background:white;
+visibility: hidden;
+transition:transform 0.4s,top 0.4s;
+}
+.team-open-popup{
+visibility:visible;
+top: 340%;
+transform: translate(-50%,-50%) scale(1);
+}
+.team-popup img{
+  width: 100px;
+  height: 100px;
+  margin-top: -50px; 
+} 
+.team-popup h4{
+font-size: 38px;
+font-weight: 500;
+margin: 30px 0 10px ;
+}
+.team-popup button{
+width: 100%;
+margin-top: 50px;
+padding: 10px 0 ;
+background:#1c526b;
+color: white;
+
+
+}
+/* end of team css style */
+
+/* start of footer CSS style */
+
+.footer-content ul{
+  display: flex;
+  justify-content: space-around ;
+  list-style: none;
+  margin-top: 30px;
+
+}
+.footer-content ul li{
+  margin-left: 40px;
+}
+
+.footer-content a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 700;
+
+}
+.footer-content a:hover{
+color:rgb(18 16 93);
+  text-decoration: underline;
+
+}
+.footer-content p{
+  width: 300px;
+  margin-left: 80px;
+  color:papayawhip;
+  margin-top: -15px;
+  font-weight: bold;
+}
+.footer-content h3{
+  margin-left: 80px;
+  color: papayawhip;
+  margin-top: -20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+  background-color: #1c526b;
+  padding: 50px 0;
+
+}
+.footer-contact{
+  margin-left: 20px;
+  margin-top: 20px;
+
+}
+.icons img{
+  width: 25px;
+  height: 25px;
+
+}
+.icons img:hover{
+  width: 21px;
+  height: 21px;
+}
+.footer-contact h3{
+  color: papayawhip;
+  font-weight: 700;
+  font-size: 21px;
+
+}
+.footer-contact p{
+  color:  papayawhip;
+  font-size: 16px;
+  font-weight: 700;
+}
+.footer-contact a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+.footer-contact a:hover{
+  color: black;
+  text-decoration:underline;
+}
+hr{
+  height: 2px;
+  border-color: grey;
+  color: grey;
+
+}
+.copyright{
+  text-align: center;
+  font-size: 16px;
+  margin-left: 20px;
+  color: whitesmoke;
+  font-weight: 800;
+
+}
+
+.upperfooter{
+  display: flex;
+  justify-content: space-around;
+
+}
+/* end of footer CSS style */
