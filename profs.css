@@ -150,6 +150,7 @@ cursor: pointer;
     color: wheat;
     font-weight: bold;
     margin-top :50px;
+    text-align: center;
   
 }
 .team-btn:hover{
@@ -242,12 +243,12 @@ color:rgb(18 16 93);
 padding: 10px 60px ;
 border-radius: 4px;
 outline:none;
-cursor: pointer;
+
 font-size: 22px;
 font-weight: 500;
 background-color:#1c526b;
-display: flex;
-margin: auto;
+white-space: nowrap;
+margin-left : 1390px;
 color: wheat;
 
 }
